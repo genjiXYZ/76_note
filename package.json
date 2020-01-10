@@ -1,0 +1,26 @@
+{
+  "name": "76_note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy":"bash deploy.sh"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soild76/76_note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soild76/76_note/issues"
+  },
+  "homepage": "https://github.com/soild76/76_note#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
