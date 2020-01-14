@@ -6,9 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy":"bash deploy.sh"
-
-
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -21,6 +19,8 @@
   },
   "homepage": "https://github.com/soild76/76_note#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "vuepress": "^1.2.0"
   }
 }
