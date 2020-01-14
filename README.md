@@ -1,0 +1,1 @@
+[![Build Status](https://www.travis-ci.org/genjiXYZ/76_note.svg?branch=master)](https://www.travis-ci.org/genjiXYZ/76_note)
