@@ -2,6 +2,8 @@ const navConfig = require('../../config/nav')
 
 const pluginConf = require('../../config/pluginConfig')
 
+
+
 module.exports = {
     base: '/76_note/',
     title: "76",
@@ -32,6 +34,6 @@ module.exports = {
         editLinks: true,
         editLinkText: '编辑此页',
         nav: navConfig, /////导航栏
-        sidebar: 'auto' //   自动生成侧边栏
+        // sidebar: 'auto' //   自动生成侧边栏
     }
 }

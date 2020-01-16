@@ -19,8 +19,14 @@
   },
   "homepage": "https://github.com/soild76/76_note#readme",
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.2.0",
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
-    "vuepress": "^1.2.0"
+    "@vuepress/plugin-nprogress": "^1.2.0",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-auto-sidebar": "^1.1.1"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
   }
 }
