@@ -10,12 +10,6 @@ title: webpack loaders
 
 `$ npm install raw-loader --save-dev`
 
-
-
-### 
-
-
-
 三种用法
 
 `import txt from 'raw-loader!./file.txt';`

@@ -35,6 +35,7 @@ module.exports = {
         editLinkText: '编辑此页',
         nav: navConfig, /////导航栏
         // sidebar: 'auto' //   自动生成侧边栏
-        displayAllHeaders: true //显示所有侧边栏
+        displayAllHeaders: true, //显示所有侧边栏
+        activeHeaderLinks: true,
     }
 }
