@@ -19,7 +19,7 @@ module.exports = [{
 
     {
         text: 'plugins',
-        link: '/css/'
+        link: '/plugins/'
     },
 
     {
@@ -58,27 +58,61 @@ module.exports = [{
             },
 
             {
-                text: "mint-ui Vue",
+                text: "Mint-ui Vue",
                 link: "http://mint-ui.github.io/#!/zh-cn"
             }
 
         ]
 
     },
+
+    {
+        text: "效率网站",
+        items: [{
+            text: "自动化测试部署",
+            items: [{
+                text: "Travis Cli",
+                link: "https://www.travis-ci.org/"
+            }]
+        }, {
+            text: "数据库",
+            items: [{
+                    text: "Cloud mongoDB",
+                    link: "https://www.mongodb.com/cloud"
+                },
+                {
+                    text: "Robo 3T-mongoDB GUI",
+                    link: "https://robomongo.org/"
+                }
+            ]
+        }, {
+            text: "Serverless",
+            items: [{
+                    text: "Leancloud",
+                    link: "https://www.leancloud.cn/"
+                },
+                {
+                    text: "Firebase",
+                    link: "https://firebase.google.cn/"
+                }
+            ]
+
+        }]
+    },
     {
         text: "工具箱",
         items: [{
                 text: "渐变配色",
                 items: [{
-                        text: "webgradients",
+                        text: "Webgradients",
                         link: "https://webgradients.com/"
                     },
                     {
-                        text: "coolhue",
+                        text: "Coolhue",
                         link: "https://webkul.github.io/coolhue/"
                     },
                     {
-                        text: "uigradients",
+                        text: "Uigradients",
                         link: "https://uigradients.com/#CanYouFeelTheLoveTonight"
                     },
                 ]
@@ -98,20 +132,28 @@ module.exports = [{
                 ]
 
 
-            },{
+            }, {
                 text: "取色工具",
                 items: [{
-                        text: "win-Just Color Picker",
+                        text: "Win-Just Color Picker",
                         link: "https://annystudio.com/software/colorpicker/#versionhistory"
                     },
                     {
-                        text: "mac-ColorWell",
+                        text: "Mac-ColorWell",
                         link: "https://apps.apple.com/us/app/colorwell/id460176867?mt=12"
                     }
                 ]
 
 
-            }
+            },
+
+            {
+                text: "其他",
+                items: [{
+                        text: "Github badges",
+                        link: "https://shields.io/category/build"
+                    },]
+            },
 
         ]
     }

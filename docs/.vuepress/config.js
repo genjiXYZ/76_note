@@ -28,12 +28,13 @@ module.exports = {
 
 
     themeConfig: {
-        repo: 'genjiXYZ/76_note', //github
+        repo: 'genjiXYZ', //github
         docsDir: 'docs', ///仓库文档目录分支
         lastUpdated: 'Last Updated', //更新时间
         editLinks: true,
         editLinkText: '编辑此页',
         nav: navConfig, /////导航栏
         // sidebar: 'auto' //   自动生成侧边栏
+        displayAllHeaders: true //显示所有侧边栏
     }
 }
