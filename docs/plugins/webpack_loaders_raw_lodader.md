@@ -32,7 +32,7 @@ title: webpack loaders
 
 
 
-![Image](https://github.com/genjiXYZ/76_note/blob/master/docs/.vuepress/public/avatar.png?raw=true)
+![Image](https://github.com/genjiXYZ/76_note/blob/master/docs/.vuepress/public/webpackImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200117102450.png?raw=true)
 
 
 
