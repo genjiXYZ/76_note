@@ -3,7 +3,7 @@ node_js:
   - lts/*
 script:
   - npm run docs:build
-  #  npm run deploy
+  - echo 'doc.genji.xyz' > CNAME
 deploy:
   provider: pages
   skip-cleanup: true
