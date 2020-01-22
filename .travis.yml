@@ -3,6 +3,7 @@ node_js:
   - lts/*
 script:
   - npm run docs:build
+  - cd docs/.vuepress/dist
   - echo 'doc.genji.xyz' > CNAME
 deploy:
   provider: pages
