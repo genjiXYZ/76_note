@@ -73,6 +73,9 @@ module.exports = [{
             items: [{
                 text: "Travis Cli",
                 link: "https://www.travis-ci.org/"
+            },{
+                text:"Coding",
+                link:"https://coding.net/"
             }]
         }, {
             text: "数据库",

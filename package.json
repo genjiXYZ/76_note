@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soild76/76_note.git"
+    "url": "git+https://github.com/genjiXYZ/76_note.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soild76/76_note/issues"
+    "url": "https://github.com/genjiXYZ/76_note/issues"
   },
-  "homepage": "https://github.com/soild76/76_note#readme",
+  "homepage": "https://github.com/genjiXYZ/76_note#readme",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.2.0",
     "@vuepress/plugin-back-to-top": "^1.2.0",
