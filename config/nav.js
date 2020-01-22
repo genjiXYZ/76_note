@@ -155,7 +155,11 @@ module.exports = [{
                 items: [{
                         text: "Github badges",
                         link: "https://shields.io/category/build"
-                    },]
+                    },
+                {
+                    text:"git常用命令备忘",
+                    link:"https://juejin.im/post/5de8d849e51d455808332166"
+                }]
             },
 
         ]
