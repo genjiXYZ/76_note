@@ -5,7 +5,7 @@ const pluginConf = require('../../config/pluginConfig')
 
 
 module.exports = {
-    base: '/76_note/',
+    // base: '/76_note/',
     title: "76",
     description: '76note', ///seo
     locales: {
