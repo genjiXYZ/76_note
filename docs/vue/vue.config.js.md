@@ -2,11 +2,11 @@
 
 autoGroup-1: vue-config css 
 
-title: sass
+title: sass全局共享变量
 
 ---
 
-
+这样可以把所有 Sass/Less 样式传入共享的全局变量：
 
 ```js
 module.exports = {
