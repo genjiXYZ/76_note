@@ -16,6 +16,12 @@ module.exports = [{
         text: 'CSS',
         link: '/css/'
     },
+    {
+        text:'vue',
+        link:'vue'
+
+    },
+
 
     {
         text: 'plugins',
