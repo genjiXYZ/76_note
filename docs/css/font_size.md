@@ -1,8 +1,8 @@
 ---
 
-autoGroup-2:font-size  
+autoGroup-2: font-size  
 
-title:em
+title: em
 
 ---
 
