@@ -2,7 +2,7 @@
 
 autoGroup-2:font-size  
 
-title: em
+title:em
 
 ---
 
