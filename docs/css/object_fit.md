@@ -5,6 +5,7 @@ autoGroup-1: img
 title: object-fit
 
 ---
+### object-fit
 
 ```js
 fill（不保持纵横比缩放图片，使图片完全适应）
