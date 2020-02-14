@@ -1,6 +1,6 @@
 ---
 
-autoGroup-1: vue-config css 
+autoGroup-1: vue config.js
 
 title: sass全局共享变量
 
