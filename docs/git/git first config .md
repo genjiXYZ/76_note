@@ -41,6 +41,3 @@ $cat ~/.ssh/id_rsa.pub
 
 ![](http://picgo.genji.xyz/img/image-20200302214603051.png)
 
-![Image](http://picgo.genji.xyz/img/image-20200302214603051.png)
-
-![Image](http://pic.genji.xyz/images/2020/01/18/vscode-_setting_sync275ef3ecb6edaac0.png)
