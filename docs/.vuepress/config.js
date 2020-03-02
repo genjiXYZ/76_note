@@ -28,14 +28,15 @@ module.exports = {
 
 
     themeConfig: {
-        repo: 'genjiXYZ', //github
+        repo: 'genjiXYZ/76_note', //github 项目链接  影响 edit this page
         docsDir: 'docs', ///仓库文档目录分支
         lastUpdated: 'Last Updated', //更新时间
         editLinks: true,
-        editLinkText: '编辑此页',
+        editLinkText: '提出你的建议 帮我完善此页',
         nav: navConfig, /////导航栏
         // sidebar: 'auto' //   自动生成侧边栏
-        displayAllHeaders: true, //显示所有侧边栏
+        displayAllHeaders: false, //显示所有侧边栏
         activeHeaderLinks: true,
+        // smoothScroll: true,
     }
 }

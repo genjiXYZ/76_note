@@ -17,17 +17,28 @@ module.exports = [{
         link: '/css/'
     },
     {
-        text:'vue',
-        link:'/vue/'
+        text: 'vue',
+        link: '/vue/'
 
     },
-
-
     {
         text: 'plugins',
         link: '/plugins/'
     },
+    {
+        text: '其他配置',
+       
+        items: [{
+                text: '黑苹果',
+                link: '/hackmac/'
 
+            },
+            {
+                text: 'git',
+                link: '/git/'
+            }
+        ]
+    },
     {
         text: 'UI库',
         items: [{
@@ -79,9 +90,9 @@ module.exports = [{
             items: [{
                 text: "Travis Cli",
                 link: "https://www.travis-ci.org/"
-            },{
-                text:"Coding",
-                link:"https://coding.net/"
+            }, {
+                text: "Coding",
+                link: "https://coding.net/"
             }]
         }, {
             text: "数据库",
@@ -162,10 +173,11 @@ module.exports = [{
                         text: "Github badges",
                         link: "https://shields.io/category/build"
                     },
-                {
-                    text:"git常用命令备忘",
-                    link:"https://juejin.im/post/5de8d849e51d455808332166"
-                }]
+                    {
+                        text: "git常用命令备忘",
+                        link: "https://juejin.im/post/5de8d849e51d455808332166"
+                    }
+                ]
             },
 
         ]
