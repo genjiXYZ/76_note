@@ -124,7 +124,17 @@ Github:<https://github.com/paradiseduo/ShadowsocksX-NG-R8>
 
 ​			<https://github.com/yichengchen/clashX>
 
-#### 编程 :vscode postman fork Typora
+#### 编程 :
+
+vscode 
+
+postman 
+
+fork T
+
+ypora
+
+TinyPNG4mac
 
 #### 实用工具:
 
