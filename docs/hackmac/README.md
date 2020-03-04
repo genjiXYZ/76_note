@@ -63,6 +63,9 @@ Github下载地址:<https://github.com/zxystd/IntelBluetoothFirmware>
 
 
 ## hidpi
+```console
+sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
+```
 
 选择缓冲帧>选择你屏幕分辨率> +> 导出
 
@@ -77,6 +80,12 @@ Github下载地址:<https://github.com/zxystd/IntelBluetoothFirmware>
 将icons.plist 和文件夹DisplayVendorID-XXX 复制到
 
 /System/Library/Displays/Contents/Resources/Overrides
+不让复制运行 
+
+```console
+sudo mount -uw /
+killall Finder
+````
 
 更多详情参见<https://www.bilibili.com/video/av71415975/> 视频中方式二
 
