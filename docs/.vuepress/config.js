@@ -38,5 +38,9 @@ module.exports = {
         displayAllHeaders: false, //显示所有侧边栏
         activeHeaderLinks: true,
         // smoothScroll: true,
+        sidebarDepth: 2,
     }
+
+
+  
 }

@@ -8,26 +8,36 @@ module.exports = [{
     {
         text: 'JS',
         items: [{
-            text: "pure",
-            link: '/js/'
-        }],
+                text: "pure",
+                link: '/js/'
+            },
+            {
+                text: "regex",
+                link: '/regex/'
+            }
+        ],
     },
     {
         text: 'CSS',
         link: '/css/'
     },
     {
-        text: 'vue',
+        text: 'VUE',
         link: '/vue/'
 
     },
+    {
+        text: 'Sass',
+        link: '/sass/'
+    },
+
     {
         text: 'plugins',
         link: '/plugins/'
     },
     {
         text: '其他配置',
-       
+
         items: [{
                 text: '黑苹果',
                 link: '/hackmac/'
@@ -39,9 +49,12 @@ module.exports = [{
             }
         ]
     },
+
+
     {
         text: 'UI库',
-        items: [{
+        items: [
+            {
                 text: "ant-design",
                 items: [{
                         text: "Ant design Vue",
@@ -49,11 +62,11 @@ module.exports = [{
                     },
                     {
                         text: "Ant design React",
-                        link: 'https://ant.design/docs/react/introduce-cn'
+                        link: 'https://ant.design/docs/react/introduce-cn/'
                     },
                     {
                         text: "Ant design Pro",
-                        link: 'https://ant.design/docs/react/introduce-cn'
+                        link: 'https://pro.ant.design/index-cn'
                     }
 
 
@@ -63,12 +76,12 @@ module.exports = [{
                 text: "element",
                 items: [{
                         text: "Element base",
-                        link: 'https://element.eleme.io/#/zh-CN'
+                        link: 'https://element.eleme.io/#/zh-CN/'
 
                     },
                     {
                         text: "Element vue-admin",
-                        link: 'https://github.com/PanJiaChen/vue-element-admin'
+                        link: 'https://github.com/PanJiaChen/vue-element-admin/'
 
                     },
                 ]
@@ -76,7 +89,7 @@ module.exports = [{
 
             {
                 text: "Mint-ui Vue",
-                link: "http://mint-ui.github.io/#!/zh-cn"
+                link: "http://mint-ui.github.io/#!/zh-cn/"
             }
 
         ]
@@ -88,7 +101,7 @@ module.exports = [{
         items: [{
             text: "自动化测试部署",
             items: [{
-                text: "Travis Cli",
+                text: "Travis CI",
                 link: "https://www.travis-ci.org/"
             }, {
                 text: "Coding",
@@ -98,7 +111,7 @@ module.exports = [{
             text: "数据库",
             items: [{
                     text: "Cloud mongoDB",
-                    link: "https://www.mongodb.com/cloud"
+                    link: "https://www.mongodb.com/cloud/"
                 },
                 {
                     text: "Robo 3T-mongoDB GUI",
@@ -119,6 +132,7 @@ module.exports = [{
 
         }]
     },
+
     {
         text: "工具箱",
         items: [{
