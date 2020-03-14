@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rules | 76</title>
+    <meta name="description" content="76note">
+    <link rel="icon" href="/favicon.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.328b40ef.css" as="style"><link rel="preload" href="/assets/js/app.2cc280c0.js" as="script"><link rel="preload" href="/assets/js/2.0dbb280e.js" as="script"><link rel="preload" href="/assets/js/32.b49c0492.js" as="script"><link rel="prefetch" href="/assets/js/10.6a22c754.js"><link rel="prefetch" href="/assets/js/11.9d733dd1.js"><link rel="prefetch" href="/assets/js/12.d11df45e.js"><link rel="prefetch" href="/assets/js/13.544c0452.js"><link rel="prefetch" href="/assets/js/14.b50656a2.js"><link rel="prefetch" href="/assets/js/15.98ada6bf.js"><link rel="prefetch" href="/assets/js/16.1ce1b651.js"><link rel="prefetch" href="/assets/js/17.35723f0b.js"><link rel="prefetch" href="/assets/js/18.b2593ca7.js"><link rel="prefetch" href="/assets/js/19.382f8342.js"><link rel="prefetch" href="/assets/js/20.d5b4e354.js"><link rel="prefetch" href="/assets/js/21.2a3ebe28.js"><link rel="prefetch" href="/assets/js/22.712f5753.js"><link rel="prefetch" href="/assets/js/23.334a7599.js"><link rel="prefetch" href="/assets/js/24.58db33eb.js"><link rel="prefetch" href="/assets/js/25.78f8cd58.js"><link rel="prefetch" href="/assets/js/26.9fe65f23.js"><link rel="prefetch" href="/assets/js/27.1a73ecd4.js"><link rel="prefetch" href="/assets/js/28.67894fc4.js"><link rel="prefetch" href="/assets/js/29.b1c712e0.js"><link rel="prefetch" href="/assets/js/3.a8050ffa.js"><link rel="prefetch" href="/assets/js/30.d03aca1a.js"><link rel="prefetch" href="/assets/js/31.de15f59a.js"><link rel="prefetch" href="/assets/js/33.c45d4e97.js"><link rel="prefetch" href="/assets/js/34.34dcc9f1.js"><link rel="prefetch" href="/assets/js/35.fa683d27.js"><link rel="prefetch" href="/assets/js/36.9805e314.js"><link rel="prefetch" href="/assets/js/37.b61b681d.js"><link rel="prefetch" href="/assets/js/4.b646ff84.js"><link rel="prefetch" href="/assets/js/5.5c893c5e.js"><link rel="prefetch" href="/assets/js/6.7d849cb3.js"><link rel="prefetch" href="/assets/js/7.5b4c3d70.js"><link rel="prefetch" href="/assets/js/8.e68429e3.js"><link rel="prefetch" href="/assets/js/9.83783b01.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.328b40ef.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">76</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">pure</a></li><li class="dropdown-item"><!----> <a href="/regex/" class="nav-link">regex</a></li></ul></div></div><div class="nav-item"><a href="/css/" class="nav-link">CSS</a></div><div class="nav-item"><a href="/vue/" class="nav-link">VUE</a></div><div class="nav-item"><a href="/sass/" class="nav-link router-link-active">Sass</a></div><div class="nav-item"><a href="/plugins/" class="nav-link">plugins</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他配置" class="dropdown-title"><span class="title">其他配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hackmac/" class="nav-link">黑苹果</a></li><li class="dropdown-item"><!----> <a href="/git/" class="nav-link">git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="UI库" class="dropdown-title"><span class="title">UI库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>ant-design</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.antdv.com/docs/vue/introduce-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://ant.design/docs/react/introduce-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design React
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://pro.ant.design/index-cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design Pro
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>element</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://element.eleme.io/#/zh-CN/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Element base
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://github.com/PanJiaChen/vue-element-admin/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Element vue-admin
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><!----> <a href="http://mint-ui.github.io/#!/zh-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mint-ui Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="效率网站" class="dropdown-title"><span class="title">效率网站</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>自动化测试部署</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.travis-ci.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Travis CI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://coding.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Coding
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>数据库</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.mongodb.com/cloud/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Cloud mongoDB
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://robomongo.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Robo 3T-mongoDB GUI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Serverless</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.leancloud.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Leancloud
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://firebase.google.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Firebase
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具箱" class="dropdown-title"><span class="title">工具箱</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>渐变配色</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://webgradients.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Webgradients
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Coolhue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://uigradients.com/#CanYouFeelTheLoveTonight" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Uigradients
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>传统配色</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nipponcolors.com/#tsuyukusa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  日本の伝統色
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://zhongguose.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中国色
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>取色工具</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://annystudio.com/software/colorpicker/#versionhistory" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Win-Just Color Picker
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://apps.apple.com/us/app/colorwell/id460176867?mt=12" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mac-ColorWell
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://shields.io/category/build" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github badges
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://juejin.im/post/5de8d849e51d455808332166" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  git常用命令备忘
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/genjiXYZ/76_note" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">pure</a></li><li class="dropdown-item"><!----> <a href="/regex/" class="nav-link">regex</a></li></ul></div></div><div class="nav-item"><a href="/css/" class="nav-link">CSS</a></div><div class="nav-item"><a href="/vue/" class="nav-link">VUE</a></div><div class="nav-item"><a href="/sass/" class="nav-link router-link-active">Sass</a></div><div class="nav-item"><a href="/plugins/" class="nav-link">plugins</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他配置" class="dropdown-title"><span class="title">其他配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hackmac/" class="nav-link">黑苹果</a></li><li class="dropdown-item"><!----> <a href="/git/" class="nav-link">git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="UI库" class="dropdown-title"><span class="title">UI库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>ant-design</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.antdv.com/docs/vue/introduce-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://ant.design/docs/react/introduce-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design React
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://pro.ant.design/index-cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Ant design Pro
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>element</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://element.eleme.io/#/zh-CN/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Element base
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://github.com/PanJiaChen/vue-element-admin/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Element vue-admin
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><!----> <a href="http://mint-ui.github.io/#!/zh-cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mint-ui Vue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="效率网站" class="dropdown-title"><span class="title">效率网站</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>自动化测试部署</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.travis-ci.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Travis CI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://coding.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Coding
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>数据库</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.mongodb.com/cloud/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Cloud mongoDB
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://robomongo.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Robo 3T-mongoDB GUI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Serverless</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.leancloud.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Leancloud
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://firebase.google.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Firebase
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具箱" class="dropdown-title"><span class="title">工具箱</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>渐变配色</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://webgradients.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Webgradients
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Coolhue
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://uigradients.com/#CanYouFeelTheLoveTonight" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Uigradients
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>传统配色</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nipponcolors.com/#tsuyukusa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  日本の伝統色
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="http://zhongguose.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中国色
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>取色工具</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://annystudio.com/software/colorpicker/#versionhistory" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Win-Just Color Picker
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://apps.apple.com/us/app/colorwell/id460176867?mt=12" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mac-ColorWell
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://shields.io/category/build" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github badges
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://juejin.im/post/5de8d849e51d455808332166" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  git常用命令备忘
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/genjiXYZ/76_note" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>sass</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/sass/" class="sidebar-link">概述 🍪</a></li><li><a href="/sass/basic.html" class="sidebar-link">基础</a></li><li><a href="/sass/color.html" class="sidebar-link">颜色</a></li><li><a href="/sass/loop.html" class="sidebar-link">循环</a></li><li><a href="/sass/rules.html" class="active sidebar-link">Rules</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sass/rules.html#import" class="sidebar-link">@import</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#use-代替-import的新东西-推荐" class="sidebar-link">@use(代替@import的新东西)推荐</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sass/rules.html#引入" class="sidebar-link">引入</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#自定义-命名空间" class="sidebar-link">自定义 命名空间</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#局部变量" class="sidebar-link">局部变量</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#模块化引用-可配置自定义参数" class="sidebar-link">模块化引用(可配置自定义参数)</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#加载css-不建议" class="sidebar-link">加载css (不建议)</a></li></ul></li><li class="sidebar-sub-header"><a href="/sass/rules.html#extent" class="sidebar-link">@extent</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#if-else-if-else" class="sidebar-link">@if @else if @else</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#nth-list-n" class="sidebar-link">nth($list,$n)</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#mixin-include" class="sidebar-link">@mixin @include</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sass/rules.html#普通传参" class="sidebar-link">普通传参</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#带有-默认值-传参" class="sidebar-link">带有 默认值 传参</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#不确定传参" class="sidebar-link">不确定传参 (...)</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#用数组传参" class="sidebar-link">用数组传参</a></li></ul></li><li class="sidebar-sub-header"><a href="/sass/rules.html#content-混合自定义样式" class="sidebar-link">@content 混合自定义样式</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#mixin-include-简写" class="sidebar-link">@mixin @include 简写</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#media" class="sidebar-link">@media</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#输出格式" class="sidebar-link">输出格式</a></li><li class="sidebar-sub-header"><a href="/sass/rules.html#其他api" class="sidebar-link">其他api</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="import"><a href="#import" class="header-anchor">#</a> @import</h2> <p>sass 中</p> <p>@import 存在的问题</p> <ul><li><p>@import 使得所有的 变量 mixin 函数 都可以全局访问</p></li> <li><p>因为所有的变量都变成了全局的 所以不得不将变量 加一些前缀 避免冲突 很麻烦</p></li> <li><p>@extend 也会变成全局的了 所以很难知道 到底 继承 或者 扩展了 那些样式</p></li></ul> <p>Sass 有和css  同样的功能</p> <p>与css 不同的是 css 导入 在渲染时候需要发出多个http请求</p> <p>而sass 则在编译中处理</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// css 用;  分隔 </span>
+
+<span class="token comment">//sass  可以用,  分隔 多个导入</span>
+
+<span class="token keyword">@import</span> <span class="token string">'foundation/code.scss'</span><span class="token punctuation">,</span> <span class="token string">'foundation/lists.scss'</span><span class="token punctuation">;</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>在@use 中已经解决了这些问题  而且@import  在未来几年 将会被弃用</p></div> <h2 id="use-代替-import的新东西-推荐"><a href="#use-代替-import的新东西-推荐" class="header-anchor">#</a> @use(代替@import的新东西)推荐</h2> <h3 id="引入"><a href="#引入" class="header-anchor">#</a> 引入</h3> <p>由于@use 解决了@import 的一些 变量变成全局的问题 所以在命名的时候可以用一些 简单的名称如</p> <p>$width $radius</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">///  src/_corners.scss</span>
+
+<span class="token property"><span class="token variable">$radius</span></span><span class="token punctuation">:</span> 3p想<span class="token punctuation">;</span>
+<span class="token keyword">@mixin</span> <span class="token selector">rounded </span><span class="token punctuation">{</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">$radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// style.scss</span>
+<span class="token atrule"><span class="token rule">@use</span> <span class="token string">&quot;src/corners&quot;</span><span class="token punctuation">;</span>
+
+.button</span> <span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> corners.rounded<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 5px <span class="token operator">+</span> corners.<span class="token variable">$radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>是不是用  corners.rounded 这种方式有点麻烦 你</p> <h3 id="自定义-命名空间"><a href="#自定义-命名空间" class="header-anchor">#</a> 自定义 命名空间</h3> <p>你当然也可以自定义 一个名字</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// src/_corners.scss</span>
+<span class="token property"><span class="token variable">$radius</span></span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+
+<span class="token keyword">@mixin</span> <span class="token selector">rounded </span><span class="token punctuation">{</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">$radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// style.scss</span>
+<span class="token atrule"><span class="token rule">@use</span> <span class="token string">&quot;src/corners&quot;</span> as c<span class="token punctuation">;</span>
+
+.button</span> <span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> c.rounded<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 5px <span class="token operator">+</span> c.<span class="token variable">$radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="局部变量"><a href="#局部变量" class="header-anchor">#</a> 局部变量</h3> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// src/_corners.scss</span>
+<span class="token property"><span class="token variable">$-radius</span></span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+
+<span class="token keyword">@mixin</span> <span class="token selector">rounded </span><span class="token punctuation">{</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">$-radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// style.scss</span>
+<span class="token atrule"><span class="token rule">@use</span> <span class="token string">&quot;src/corners&quot;</span><span class="token punctuation">;</span>
+
+.button</span> <span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> corners.rounded<span class="token punctuation">;</span>
+
+  
+  <span class="token comment">// 这是错误的 $-radius 是不可访问的   除了 `_corners.scss`.</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 5px <span class="token operator">+</span> corners.<span class="token variable">$-radius</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="模块化引用-可配置自定义参数"><a href="#模块化引用-可配置自定义参数" class="header-anchor">#</a> 模块化引用(可配置自定义参数)</h3> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// _library.scss</span>
+<span class="token property"><span class="token variable">$black</span></span><span class="token punctuation">:</span> #000 <span class="token statement keyword">!default</span><span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$border-radius</span></span><span class="token punctuation">:</span> 0.25rem <span class="token statement keyword">!default</span><span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$box-shadow</span></span><span class="token punctuation">:</span> 0 0.5rem 1rem <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token variable">$black</span><span class="token punctuation">,</span> 0.15<span class="token punctuation">)</span> <span class="token statement keyword">!default</span><span class="token punctuation">;</span>
+
+<span class="token selector">code </span><span class="token punctuation">{</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">$border-radius</span><span class="token punctuation">;</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> <span class="token variable">$box-shadow</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token comment">// style.scss</span>
+@use <span class="token string">'library'</span> with <span class="token punctuation">(</span>
+  <span class="token property"><span class="token variable">$black</span></span><span class="token punctuation">:</span> #222<span class="token punctuation">,</span>
+  <span class="token property"><span class="token variable">$border-radius</span></span><span class="token punctuation">:</span> 0.1rem
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="加载css-不建议"><a href="#加载css-不建议" class="header-anchor">#</a> 加载css (不建议)</h3> <p>支持加载css 不建议使用</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// code.css</span>
+<span class="token selector">code </span><span class="token punctuation">{</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> .25em<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// style.scss</span>
+@use <span class="token string">'code'</span><span class="token punctuation">;</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>你引入的css  不允许有任何sass 的功能  因此不能暴露任何Sass变量，函数或混合.</p> <p>所有不是有效CSS的 Sass功能也会产生错误。</p></div> <h2 id="extent"><a href="#extent" class="header-anchor">#</a> @extent</h2> <p>继承   就是把你要继承对象 的所有样式 附加到 所在的位置上</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">.error </span><span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px #f00<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #fdd<span class="token punctuation">;</span>
+
+  <span class="token selector"><span class="token parent important">&amp;</span>--serious </span><span class="token punctuation">{</span>
+    <span class="token keyword">@extend</span> .error<span class="token punctuation">;</span>
+    <span class="token property">border-width</span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//to css</span>
+<span class="token selector">.error, .error--serious </span><span class="token punctuation">{</span>
+	 <span class="token property">border</span><span class="token punctuation">:</span> 1px #f00<span class="token punctuation">;</span>
+	 <span class="token property">background-color</span><span class="token punctuation">:</span> #fdd<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ <span class="token selector">.error--serious </span><span class="token punctuation">{</span>
+	 <span class="token property">border-width</span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ 
+
+<span class="token comment">//////////</span>
+
+
+<span class="token selector">.error:hover </span><span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #fee<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.error--serious </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> .error<span class="token punctuation">;</span>
+  <span class="token property">border-width</span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//to css</span>
+<span class="token selector">.error:hover, .error--serious:hover </span><span class="token punctuation">{</span>
+	 <span class="token property">background-color</span><span class="token punctuation">:</span> #fee<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ <span class="token selector">.error--serious </span><span class="token punctuation">{</span>
+	 <span class="token property">border-width</span><span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ 
+</code></pre></div><h2 id="if-else-if-else"><a href="#if-else-if-else" class="header-anchor">#</a> @if @else if @else</h2> <p>当 <code>@if</code> 的表达式返回值不是 <code>false</code> 或者 <code>null</code> 时，条件成立，输出 <code>{}</code> 内的代码：</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">p </span><span class="token punctuation">{</span>
+  <span class="token keyword">@if</span> <span class="token selector">1 + 1 == 2 </span><span class="token punctuation">{</span> <span class="token property">border</span><span class="token punctuation">:</span> 1px solid<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+  <span class="token keyword">@if</span> <span class="token selector">5 &lt; 3 </span><span class="token punctuation">{</span> <span class="token property">border</span><span class="token punctuation">:</span> 2px dotted<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+  <span class="token keyword">@if</span> <span class="token selector">null  </span><span class="token punctuation">{</span> <span class="token property">border</span><span class="token punctuation">:</span> 3px double<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">///p {border: 1px solid; }</span>
+
+
+
+<span class="token property"><span class="token variable">$type</span></span><span class="token punctuation">:</span> monster<span class="token punctuation">;</span>
+<span class="token selector">p </span><span class="token punctuation">{</span>
+  <span class="token keyword">@if</span> <span class="token selector"><span class="token variable">$type</span> == dog </span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">@else if</span> <span class="token selector"><span class="token variable">$type</span> == cat </span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">@else if</span> <span class="token selector"><span class="token variable">$type</span> == monster </span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">@else</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">///p {color: green; }</span>
+</code></pre></div><h2 id="nth-list-n"><a href="#nth-list-n" class="header-anchor">#</a> nth($list,$n)</h2> <p>注：在 nth($list,$n) 函数中的 $n 必须是大于 0 的整数：</p> <h2 id="mixin-include"><a href="#mixin-include" class="header-anchor">#</a> @mixin @include</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token selector">flex </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//在你想用的地方 用就好了</span>
+<span class="token selector">html</span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token selector">flex
+    .box</span><span class="token punctuation">{</span>
+      <span class="token keyword">@include</span> flex
+  <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>可以 嵌套 其他@mixin</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token selector">fontsiz</span><span class="token punctuation">{</span>
+  <span class="token property">fonsize</span><span class="token punctuation">:</span>12rem<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">@mixin</span> <span class="token selector">flex </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token keyword">@include</span> fontsiz
+  
+<span class="token punctuation">}</span>
+
+<span class="token selector">.box</span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> flex
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>传参</p> <h3 id="普通传参"><a href="#普通传参" class="header-anchor">#</a> 普通传参</h3> <div class="language-scss extra-class"><pre class="language-scss"><code>
+
+<span class="token keyword">@mixin</span> name <span class="token punctuation">(</span><span class="token variable">$color</span><span class="token punctuation">,</span><span class="token variable">$bgcolor</span><span class="token punctuation">,</span><span class="token variable">$fontsize</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span><span class="token variable">$color</span><span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span><span class="token variable">$bgcolor</span><span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token variable">$fontsize</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">//// 以下引用写法均可</span>
+<span class="token comment">//1</span>
+<span class="token keyword">@include</span> <span class="token function">name</span><span class="token punctuation">(</span>blue<span class="token punctuation">,</span>yellw<span class="token punctuation">,</span>24px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//2 可以引用变量  也可以对应传参</span>
+<span class="token property"><span class="token variable">$colorRed</span></span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+<span class="token keyword">@include</span>  name <span class="token punctuation">(</span><span class="token property"><span class="token variable">$color</span></span><span class="token punctuation">:</span><span class="token variable">$colorRed</span><span class="token punctuation">,</span><span class="token property"><span class="token variable">$bgcolor</span></span><span class="token punctuation">:</span>yellow<span class="token punctuation">,</span><span class="token property"><span class="token variable">$fontsize</span></span><span class="token punctuation">:</span>24px<span class="token punctuation">)</span>   <span class="token comment">//方便看</span>
+
+  
+  
+</code></pre></div><h3 id="带有-默认值-传参"><a href="#带有-默认值-传参" class="header-anchor">#</a> 带有 默认值 传参</h3> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> name <span class="token punctuation">(</span><span class="token property"><span class="token variable">$color</span></span><span class="token punctuation">:</span>blue<span class="token punctuation">,</span><span class="token property"><span class="token variable">$bgcolor</span></span><span class="token punctuation">:</span>yellow<span class="token punctuation">,</span><span class="token property"><span class="token variable">$fontsize</span></span><span class="token punctuation">:</span>24px<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span><span class="token variable">$color</span><span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span><span class="token variable">$bgcolor</span><span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token variable">$fontsize</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 没有传参的 值 会用默认值</span>
+
+<span class="token keyword">@include</span> name <span class="token punctuation">(</span><span class="token property"><span class="token variable">$fontsize</span></span><span class="token punctuation">:</span>100px<span class="token punctuation">)</span>
+  
+</code></pre></div><h3 id="不确定传参"><a href="#不确定传参" class="header-anchor">#</a> 不确定传参 (...)</h3> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token function">box-shadow</span><span class="token punctuation">(</span><span class="token variable">$shadows</span>...<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span> <span class="token variable">$shadows</span><span class="token punctuation">;</span>
+  <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span> <span class="token variable">$shadows</span><span class="token punctuation">;</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> <span class="token variable">$shadows</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.shadows </span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token function">box-shadow</span><span class="token punctuation">(</span>0px 4px 5px #666<span class="token punctuation">,</span> 2px 6px 10px #999<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//编译为</span>
+<span class="token selector">.shadowed </span><span class="token punctuation">{</span>
+  <span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span> 0px 4px 5px #666<span class="token punctuation">,</span> 2px 6px 10px #999<span class="token punctuation">;</span>
+  <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span> 0px 4px 5px #666<span class="token punctuation">,</span> 2px 6px 10px #999<span class="token punctuation">;</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0px 4px 5px #666<span class="token punctuation">,</span> 2px 6px 10px #999<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="用数组传参"><a href="#用数组传参" class="header-anchor">#</a> 用数组传参</h3> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token function">colors</span><span class="token punctuation">(</span><span class="token variable">$text</span><span class="token punctuation">,</span> <span class="token variable">$background</span><span class="token punctuation">,</span> <span class="token variable">$border</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">$text</span><span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">$background</span><span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> <span class="token variable">$border</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token property"><span class="token variable">$values</span></span><span class="token punctuation">:</span> #ff0000<span class="token punctuation">,</span> #00ff00<span class="token punctuation">,</span> #0000ff<span class="token punctuation">;</span>
+<span class="token selector">.primary </span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token function">colors</span><span class="token punctuation">(</span><span class="token variable">$values</span>...<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//编译为</span>
+<span class="token selector">.primary </span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ff0000<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #00ff00<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> #0000ff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>当然 你也可以嵌套 接着传参</p> <p>除非mixin 里面相似度非常高   否则正写  这就是给自己找麻烦 好处就是逼格很高</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token function">wrapped-stylish-mixin</span><span class="token punctuation">(</span><span class="token variable">$args</span>...<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token property">font-weight</span><span class="token punctuation">:</span> bold<span class="token punctuation">;</span>
+  <span class="token keyword">@include</span> <span class="token function">stylish-mixin</span><span class="token punctuation">(</span><span class="token variable">$args</span>...<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token selector">.stylish </span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token function">wrapped-stylish-mixin</span><span class="token punctuation">(</span>#00ff00<span class="token punctuation">,</span> <span class="token property"><span class="token variable">$width</span></span><span class="token punctuation">:</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="content-混合自定义样式"><a href="#content-混合自定义样式" class="header-anchor">#</a> @content 混合自定义样式</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token selector">html</span><span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span>24px
+    <span class="token keyword">@content</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+
+<span class="token keyword">@include</span> name <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token selector">.container</span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span>flex<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token comment">//编译成</span>
+
+<span class="token selector">html</span><span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span>24px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">html .container</span><span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span>flex
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p><strong>注意：</strong> 当 <code>@content</code> 在指令中出现过多次或者出现在循环中时，额外的代码将被导入到每一个地方。</p></div> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$color</span></span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+<span class="token keyword">@mixin</span> <span class="token function">colors</span><span class="token punctuation">(</span><span class="token property"><span class="token variable">$color</span></span><span class="token punctuation">:</span> blue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">$color</span><span class="token punctuation">;</span>
+  <span class="token keyword">@content</span><span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> <span class="token variable">$color</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.colors </span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token selector">colors </span><span class="token punctuation">{</span> 
+    <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">$color</span><span class="token punctuation">;</span> 
+  <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+<span class="token comment">////注意这里 是{}  而不是 ()传参</span>
+
+
+<span class="token comment">//编译成</span>
+
+<span class="token selector">.colors </span><span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="mixin-include-简写"><a href="#mixin-include-简写" class="header-anchor">#</a> @mixin @include 简写</h2> <p><strong>为便于书写，<code>@mixin</code> 可以用 <code>=</code> 表示，而 <code>@include</code> 可以用 <code>+</code> 表示</strong>，所以上面的例子可以写成：</p> <div class="language-scss extra-class"><pre class="language-scss"><code>=<span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
++name
+</code></pre></div><h2 id="media"><a href="#media" class="header-anchor">#</a> @media</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">.sidebar </span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+  <span class="token atrule"><span class="token rule">@media</span> screen <span class="token operator">and</span> <span class="token punctuation">(</span><span class="token property">orientation</span><span class="token punctuation">:</span> landscape<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">///to css</span>
+
+<span class="token selector">.sidebar </span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@media</span> screen <span class="token operator">and</span> <span class="token punctuation">(</span><span class="token property">orientation</span><span class="token punctuation">:</span> landscape<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">.sidebar </span><span class="token punctuation">{</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+
+
+</code></pre></div><h2 id="输出格式"><a href="#输出格式" class="header-anchor">#</a> 输出格式</h2> <p>Sass 提供了四种输出格式，可以通过 <code>:style option</code> 选项设定，或者在命令行中使用 <code>--style</code> 选项。</p> <p>:nested (默认)</p> <p>:expanded(类似css)</p> <p>:compact(每条css 占一行)</p> <p>:compressed(压缩)</p> <h2 id="其他api"><a href="#其他api" class="header-anchor">#</a> 其他api</h2> <p>还有很多类似构造函数似的 api   暂时我还用不上  但是我感觉 这些api 能做出来 很棒 的那种 视觉效果  或者做一些画图的东西  ps能用到  日后更新</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/genjiXYZ/76_note/edit/master/docs/sass/rules.md" target="_blank" rel="noopener noreferrer">提出你的建议 帮我完善此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/14/2020, 5:44:36 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/sass/loop.html" class="prev">循环</a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.2cc280c0.js" defer></script><script src="/assets/js/2.0dbb280e.js" defer></script><script src="/assets/js/32.b49c0492.js" defer></script>
+  </body>
+</html>
